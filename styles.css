@@ -63,15 +63,12 @@ a {
   -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-<<<<<<< HEAD
 header {
   background-image: url("https://szpeter0114.github.io/tengulearningproject/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-=======
->>>>>>> 2d3046125236bc4f7955f53ff2688d29b74b11da
 header .click:hover {
   cursor: pointer;
 }
@@ -210,4 +207,11 @@ main .bigflexcont .flex-container2 li {
 main .materials {
   height: 700px;
   background-color: rgb(241, 195, 178);
+}
+
+header {
+  background-image: url("https://szpeter0114.github.io/tengulearningproject/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=styles.css.map */
