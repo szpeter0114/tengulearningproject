@@ -1,0 +1,39 @@
+%btn{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+
+    &:hover{
+        transform: scale(.98);
+    }
+}
+
+.btn-primary{
+    @extend %btn;
+    background-color:lighten(darkcyan, 10); 
+    color: rgb(0, 0, 0);
+}
+
+.btn-secondary{
+    @extend %btn;
+    background-color: burlywood;
+    color:aliceblue;
+}
+
+.switch{
+    @extend %btn;
+    background-color:dimgray;
+    color:peachpuff;
+    
+}
+
+nav{
+    a{
+        color: $style-of-anchors;
+
+        &:hover{
+            color:$hover-style;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'container';
+@import 'buttons';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: $otherfont;
+}
+
+.japan{
+    color: rgb(165, 42, 42);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+@import 'header';
+
+main {
+   @import 'projects';
+   @import 'materials';
+}
+
+

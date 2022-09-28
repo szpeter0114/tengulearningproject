@@ -1,0 +1,71 @@
+header{
+    background-image: url("/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+
+    .click:hover{
+        
+        cursor: pointer;
+    }
+
+   .light{
+    color:rgb(245, 198, 79);
+    display:none;
+    &:hover{
+        color:rgb(233, 233, 231);
+    }
+   }
+
+   .dark{
+    color:rgb(185, 228, 245);
+    display: block;
+    &:hover{
+        color:rgb(40, 41, 42);
+    }
+   }
+
+    nav{
+        margin-top:1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        ul{
+            display: flex;
+
+            li{
+                font-family: $otherfont;
+                list-style: none;
+                padding: 1.4rem;
+               &:hover{
+                color: $hover-style;
+               }
+            }
+
+        }
+    }
+
+    .containercontent{
+        display: flex;
+        align-items: center;
+        
+        p{
+            font-family: $otherfont;
+            line-height: 1.4;
+            margin: 1rem 0;
+        }
+
+        h2{
+            font-family: $h1font;
+            font-size: 4.7rem;
+
+            
+        }
+
+        img:hover{
+            transform: rotate(2deg)
+        }
+    }
+}
