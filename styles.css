@@ -119,6 +119,12 @@ header .containercontent h2 {
 header .containercontent img:hover {
   transform: rotate(2deg);
 }
+header {
+    background: url("bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
 
 main .projects {
   height: 700px;
