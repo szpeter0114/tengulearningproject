@@ -204,9 +204,15 @@ main .bigflexcont .flex-container2 li {
   list-style-type: none;
   padding: 1rem 0;
 }
-main .materials {
+main .gradient {
+  background-image: -webkit-linear-gradient(rgba(182, 195, 117, 0.5529411765), #eaeaea);
+}
+main .gradient .materials {
   height: 700px;
-  background-color: rgb(241, 195, 178);
+  background-image: url("materialbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {

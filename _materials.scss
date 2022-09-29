@@ -1,4 +1,17 @@
-.materials {
-    height: 700px;
-    background-color: rgb(241, 195, 178);
+.gradient {
+    background-image: -webkit-linear-gradient(#b6c3758d, #eaeaea);
+    // background-image: -webkit-linear-gradient(#b6c3758d, #352b2b);
+    
+    .materials {
+        height: 700px;
+        // background-color: rgba(242, 226, 221, 0.477);
+        // background-color: rgba(166, 88, 65, 0.477);
+        background-image: url('materialbg.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
 }
+    
+    

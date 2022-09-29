@@ -8,6 +8,8 @@ let project = document.querySelector(".projects");
 let projecttext = document.querySelectorAll(".projecttext");
 let articleheader = document.querySelectorAll(".articleheader");
 let awesome = document.querySelectorAll('.awesome');
+let gradient = document.querySelector('.gradient');
+
 
 btn.forEach(switchIcon);
 function switchIcon(icon){
@@ -48,6 +50,8 @@ function switchIcon(icon){
             }
         };
 
+
+
         projecttext.forEach(toggletextColor);
         function toggletextColor(texxt) {
             if(colorr.style.backgroundColor === "rgb(255, 255, 255)") {
@@ -74,6 +78,7 @@ function switchIcon(icon){
             dark.style.display = "none";
             light.style.display = "block";
             project.style.backgroundColor = "rgb(71, 101, 145)";
+            gradient.style.backgroundImage = "-webkit-linear-gradient(#b6c3758d, #352b2b)"
             
         }else{
             colorr.style.backgroundColor = "rgb(255, 255, 255)";
@@ -83,6 +88,8 @@ function switchIcon(icon){
             light.style.display = "none";
             dark.style.display = "block";
             project.style.backgroundColor = "rgb(248, 248, 255)";
+            gradient.style.backgroundImage = "-webkit-linear-gradient(#b6c3758d, #eaeaea)"
+
         }
     }
 }
