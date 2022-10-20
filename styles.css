@@ -121,7 +121,7 @@ header .containercontent img:hover {
 }
 
 main .projects {
-  height: 700px;
+  height: 750px;
   background-color: rgb(248, 248, 255);
 }
 main .article1 {
@@ -170,6 +170,8 @@ main .textcontt h1 {
   color: rgb(100, 149, 237);
   letter-spacing: 5px;
   padding-bottom: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1.2rem;
 }
 main .textcontt p {
   font-family: "Ubuntu", sans-serif;
@@ -207,12 +209,32 @@ main .bigflexcont .flex-container2 li {
 main .gradient {
   background-image: -webkit-linear-gradient(rgba(182, 195, 117, 0.5529411765), #eaeaea);
 }
-main .gradient .materials {
+main .materials {
   height: 700px;
   background-image: url("materialbg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+main .sectiondiv {
+  width: 69%;
+  height: 700px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+main .sectiondiv h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 80px;
+  color: rgb(165, 42, 42);
+  transform: rotate(2deg);
+}
+main .sectiondiv form {
+  padding-top: 2rem;
+  width: 60%;
 }
 
 header {
