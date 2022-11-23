@@ -3,18 +3,15 @@
     // background-image: -webkit-linear-gradient(#b6c3758d, #352b2b);
 }
     
-    .materials {
-        height: 700px;
-        // background-color: rgba(242, 226, 221, 0.477);
-        // background-color: rgba(166, 88, 65, 0.477);
-        background-image: url('materialbg.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.materials {
+    height: 700px;
+    background-image: url('materialbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
      
     .sectiondiv {
-        
         width: 69%;
         height: 700px;
         position: absolute;

@@ -61,7 +61,6 @@ img{
         font-size: 1rem;
         margin-top: 1.2rem;
     }
-
     p {
         font-family: $otherfont;
         max-width: 450px;
@@ -81,7 +80,6 @@ img{
     
     .flex-container {
         ul{
-            
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -95,16 +93,13 @@ img{
     }
     
     .flex-container2 {
-        
         ul{
             
             display: flex;
-           
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: space-between;
         }
-        
         li{
             list-style-type: none;
             padding: 1rem 0;

@@ -10,6 +10,7 @@
 
 a{
     text-decoration: none;
+    list-style: none;
     font-family: $otherfont;
 }
 
@@ -23,7 +24,7 @@ a{
 
 main {
    @import 'projects';
-   @import 'materials';
+   @import 'contact';
 }
 
 header {

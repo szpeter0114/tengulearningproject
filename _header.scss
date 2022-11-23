@@ -5,7 +5,6 @@ header{
     background-repeat: no-repeat;  
 
     .click:hover{
-        
         cursor: pointer;
     }
 
@@ -24,6 +23,12 @@ header{
         color:rgb(40, 41, 42);
     }
    }
+
+   a{
+    text-decoration: none;
+    list-style: none;
+    font-family: $otherfont;
+}
 
     nav{
         margin-top:1.4rem;
@@ -45,11 +50,13 @@ header{
             }
 
         }
+        
     }
 
     .containercontent{
         display: flex;
         align-items: center;
+        overflow: none;
         
         p{
             font-family: $otherfont;
